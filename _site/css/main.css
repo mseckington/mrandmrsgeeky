@@ -60,9 +60,8 @@ a:visited { color: #205caa; }
 }
 
 .site-header .name-blocks {
-  width: 300px;
+  width: 370px;
   float: left;
-  margin-right: 68px;
 }
 
 .site-header .firstname {
@@ -368,9 +367,58 @@ a:visited { color: #205caa; }
 
 }
 
+@media screen and (max-width: 800px) {
+
+  .site-header h1{
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .site-header h2{
+    font-size: 116px;
+    line-height: 116px;
+  }
+
+  .site-header .name-blocks {
+    width: 265px;
+  }
+
+  .site-header .firstname {
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .wrap {
+    max-width: 600px;
+    /*padding: 0 12px;*/
+  }
+}
+
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 12px; }
+  .site-header h1{
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .site-header h2{
+    font-size: 62px;
+    line-height: 67px;
+  }
+
+  .site-header .name-blocks {
+    width: 140px;
+  }
+
+  .site-header .firstname {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .wrap {
+    max-width: 320px;
+    padding: 0 12px;
+  }
 
   .site-nav {
     position: fixed;
